@@ -15,12 +15,4 @@ public class InstructorManager extends UserManager{
         instructor.setSalary(getNewSalary());
     }
 
-
-
-    /*public void changeSalary(Instructor instructor){
-        instructor.setSalary(1500);
-        int newSalary=7000;
-        System.out.println("Salary has change from "+instructor.getSalary()+" to "+newSalary);
-        instructor.setSalary(newSalary);
-    }*/
 }
